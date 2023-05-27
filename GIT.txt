@@ -1,0 +1,39 @@
+
+Distributed version control system core concet
+Repository Local / Remote 
+
+Git 
+sudo -i
+yum update -y
+yum install git -y
+git --version
+which git
+
+git config --global user.name "tassdaq"
+git config --global user.email "tassdaq@gmail.com"
+git config --list
+--------------------------------------------------------------------------
+
+github account
+integration with creat secure access key and integrate with local repo
+
+ceate directory
+MKDIR workingdirectory
+git init
+git status 
+git add .
+git commit -m "message here"
+git log
+git show
+git remote add origin url
+git push -u origin main or master (Enter user name and access key)
+git branch  * current status
+
+git branch branch name
+
+git checkout branch name
+
+git branch -d branch name
+
+
+
